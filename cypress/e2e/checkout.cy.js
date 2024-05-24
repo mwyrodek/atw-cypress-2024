@@ -1,6 +1,5 @@
 describe('Checkout', () => {
   it('Add textra to checkout', () => {
-    cy.setupTestCookies();
     cy.visit('')
     cy.get("[data-testid='header-desktop-container'] input[type='search']").first().type("Geralt Sword{enter}")
 
