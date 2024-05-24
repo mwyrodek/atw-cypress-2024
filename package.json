@@ -1,0 +1,26 @@
+{
+  "name": "stablization-workshop",
+  "version": "0.0.1",
+  "description": "Workshop on ATW conference",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwyrodek/atw-cypress-2024.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Maciej Wyrodek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwyrodek/atw-cypress-2024/issues"
+  },
+  "homepage": "https://github.com/mwyrodek/atw-cypress-2024#readme",
+  "dependencies": {
+    "cypress": "^13.10.0"
+  }
+}
